@@ -3,7 +3,7 @@ require 'capistrano/ext/multistage'
 set :application, "dirt"
 
 set :scm, :git
-set :repository,  "git@github.com:directi/dirt-internal.git"
+set :repository,  "git@github.com:directi/dirt.git"
 set :scm_passphrase, ""
 
 set :user, "dirt"
