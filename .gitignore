@@ -3,5 +3,4 @@
 *.sql
 *.sublime-*
 *.sqlite
-*.yml
 *public/images/profile/pic
