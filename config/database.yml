@@ -1,0 +1,21 @@
+development:
+    rt:        
+        adapter: mysql2
+        host: 'localhost'        
+        database: 'rtstaging'
+        user: 'root'        
+        password: 'dirt-staging'
+    dirt:        
+        adapter: sqlite
+        database: '/opt/dirt/shared/db/dirt.sqlite'
+test:
+production:
+    rt:
+        adapter: mysql2
+        host: '172.16.140.196'
+        database: 'rt3'
+        user: 'rt_user'
+        password: 'rt_pass'
+    dirt:
+        adapter: sqlite
+        database: '/var/db/dirt/dirt.sqlite'

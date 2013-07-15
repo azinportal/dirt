@@ -1,0 +1,10 @@
+development:
+    rt_url: "http://dirt-staging.internal.directi.com/rt"    
+    log_sql: true
+    sql_log_file: "/opt/dirt/shared/log/dirt_sql.log"
+test:
+    rt_url: "http://rt.example.com"
+production:
+    rt_url: "https://sysrt.ops.directi.com"
+    log_sql: false
+    sql_log_file: "/opt/dirt/shared/log/dirt_sql.log"
